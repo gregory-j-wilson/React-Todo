@@ -82,6 +82,9 @@ clearItems = (e) => {
     if (!item.completed) {
       return item
     }
+    else {
+      return null
+    }
   }) })
 }
 
